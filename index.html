@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body container>
+
+    <section class="button-section">
+        <h4 class="topic">Buttons</h4>
+
+        <div class="row">
+            <button>Label</button>
+            <button><i class="fas fa-plus"></i> &nbsp; Label</button>
+            <button>Label &nbsp;<i class="fas fa-caret-down"></i></button>
+        </div>
+
+    </section>
+
+    <section class="card-section">
+        <h4 class="topic">Cards</h4>
+        <div class="card-row">
+            <div class="card card-1">
+                <h4 class="card-head">Card / Elevation 0</h4>
+                <h6 class="card-text">Flat Cards</h6>
+            </div>
+            <div class="card card-2">
+                <h4 class="card-head">Card / Elevation 1</h4>
+                <h6 class="card-text">Floating Cards</h6>
+            </div>
+            <div class="card card-3">
+                <h4 class="card-head">Card / Elevation 2</h4>
+                <h6 class="card-text">Inline dialogs and dropdown</h6>
+            </div>
+            <div class="card card-4">
+                <h4 class="card-head">Card / Elevation 3</h4>
+                <h6 class="card-text">Dialogs</h6>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="controls">
+        <h4 class="topic control">Controls</h4>
+        <div class="control-row ">
+            <div class="control-1">
+                <div class="text-input">
+                    <h5 class="topic">Text input</h5>
+                    <form action="/action_page.php">
+                        <input type="text" class="input-1" placeholder="Text holder">
+                    </form>
+                    <form action="/action_page.php">
+                        <input type="text" class="input-2" placeholder="Text holder">
+                    </form>
+                    <form action="/action_page.php">
+                        <input type="text" class="input-3" placeholder="Text holder">
+                    </form>
+                </div>
+                <div class="text-input">
+                    <h5 class="topic">Search input</h5>
+                    <form class="example" action="action_page.php">
+                        <i class="fa fa-search"></i>
+                        <input type="text" placeholder=" Text holder" class="input-1 search" name="search">
+
+                    </form>
+
+                    <form class="example" action="action_page.php">
+                        <i class="fa fa-search"></i>
+                        <input type="text" placeholder=" Text holder" class="input-2 search" name="search">
+
+                    </form>
+
+                    <form class="example" action="action_page.php">
+                        <i class="fa fa-search"></i>
+                        <input type="text" placeholder=" Text holder" class="input-3 search" name="search">
+
+                    </form>
+
+                </div>
+                <div class="text-input">
+                    <h5 class="topic">Select</h5>
+
+                    <select name="label" class="select-1">
+                        <option value="label">Label</option>
+                        <option value="label2">Label-2</option>
+                    </select>
+                    <br>
+                    <select name="label" class="select-2">
+                        <option value="label">Label</option>
+                        <option value="label2">Label-2</option>
+                    </select>
+                    <br>
+
+                    <select name="label" class="select-3">
+                        <option value="label">Label</option>
+                        <option value="label2">Label-2</option>
+                    </select>
+
+
+                </div>
+
+                <h5 class="topic">File upload</h5>
+                <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+
+                </form>
+                <h5 class="topic">Spinner</h5>
+                <div class="spinner"></div>
+            </div>
+            <div class="control-2">
+                <div class="text-input">
+                    <h5 class="topic">Check box</h5>
+                    <div class="row">
+                        <input type="checkbox">
+                        <input type="checkbox" checked>
+                        <input type="checkbox" indeterminate="true">
+                        <br>
+                        <input type="checkbox" disabled>
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox" indeterminate="true" disabled>
+
+
+                    </div>
+
+
+                    <h5 class="topic">Radio</h5>
+                    <input type="radio">
+                    <input type="radio" checked>
+                    <br>
+                    <input type="radio" disabled>
+                    <input type="radio" checked disabled>
+                    <div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal">
+        <h4 class="topic">Modal</h4>
+        <dialog open>
+            <h6>Dialog title</h6>
+            <hr>
+            <hr>
+
+        </dialog>
+    </section>
+
+    <section class="tooltip">
+        <h4 class="topic">Tooltips</h4>
+        <div class="tooltip">Hover over me
+            <span class="tooltiptext">Segment sync a list of users to these destinaations and keeps it up to date</span>
+        </div>
+    </section>
+
+    <section class="avatars">
+        <h4 class="topic">Avatars</h4>
+        <div class="ava">
+            <h5 class="avatar av-1">JR</h5>
+            <h5 class="avatar av-2">RW</h5>
+            <h5 class="avatar av-3">SH</h5>
+            <h5 class="avatar av-4">KB</h5>
+            <h5 class="avatar av-5">JC</h5>
+            <h5 class="avatar av-6">JC</h5>
+            <h5 class="avatar av-7">ML</h5>
+        </div>
+
+        <h4 class="topic">Avatar stack</h4>
+        <div class="avatar-stack">
+            <h5 class="avatar av-1">JR</h5>
+            <h5 class="avatar av-2">RW</h5>
+            <h5 class="avatar av-3">SH</h5>
+            <h5 class="avatar av-4">KB</h5>
+            <h5 class="avatar av-5">JC</h5>
+            <h5 class="avatar av-6">JC</h5>
+            <h5 class="avatar av-7">ML</h5>
+        </div>
+
+    </section>
+
+    <section class="badges">
+        <h4 class="topic">Badges</h4>
+        <p>Updates <span class="w3-badge">9</span></p>
+    </section>
+
+    <section class="indicator">
+        <h4 class="topic">Status Indicator</h4>
+        <ul>
+            <li class="status default">Default</li>
+            <li class="status success">Success</li>
+            <li class="status warning">Warning</li>
+            <li class="status danger">Danger</li>
+            <li class="status info">Info</li>
+
+
+          </ul>
+    </section>
+
+    <section class="flat-alert">
+        <h4 class="topic">Flat alerts</h4>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <h3>Info</h3>
+
+        </div>
+    </section>
+
+    <section class="table">
+        <h4 class="topic">Tables</h4>
+        <table>
+            <tr>
+                <th>Status</th>
+                <th>Type</th>
+                <th>Number</th>
+            </tr>
+            <tr>
+                <td class="status success">Live</td>
+                <td>Computation</td>
+                <td>380,569</td>
+            </tr>
+            <tr>
+                <td class="status danger">Error</td>
+                <td>Computation</td>
+                <td>380,569</td>
+            </tr>
+            <tr>
+                <td class="status success">Live</td>
+                <td>Computation</td>
+                <td>380,569</td>
+            </tr>
+        </table>
+        
+        
+    </section>
+
+</body>
+
+</html>
