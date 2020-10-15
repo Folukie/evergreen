@@ -126,21 +126,24 @@
                         <input type="checkbox" disabled>
                         <input type="checkbox" checked disabled>
                         <input type="checkbox" indeterminate="true" disabled>
-
-
                     </div>
-
-
-                    <h5 class="topic">Radio</h5>
-                    <input type="radio">
-                    <input type="radio" checked>
-                    <br>
-                    <input type="radio" disabled>
-                    <input type="radio" checked disabled>
                     <div>
+                        <h5 class="topic">Radio</h5>
+                        <input type="radio">
+                        <input type="radio" checked>
+                        <br>
+                        <input type="radio" disabled>
+                        <input type="radio" checked disabled>
+                    </div>
+                    <div>
+                        <h5 class="topic">Switch</h5>
                         <label class="switch">
                             <input type="checkbox">
                             <span class="slider round"></span>
+                        </label>
+                        <label class="switch on-switch">
+                            <input type="checkbox on-checkbox">
+                            <span class=" round on-slider"></span>
                         </label>
 
                     </div>
@@ -154,10 +157,15 @@
     <section class="modal">
         <h4 class="topic">Modal</h4>
         <dialog open>
-            <h6>Dialog title</h6>
-            <hr>
-            <hr>
-
+            <div class="modal-head">
+                <h6 class="modal-title">Dialog title</h6>
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>    
+            </div>
+        <hr>
+            <div class="modal-button">
+                <a href="#" class="sweet btn">Sweet</a>
+                <a href="#" class="confirm btn">Confirm</a>
+            </div>
         </dialog>
     </section>
 
@@ -180,6 +188,12 @@
             <h5 class="avatar av-7">ML</h5>
         </div>
 
+        <h4 class="topic">Avatar dropdown</h4>
+        <div class="ava-drop">
+            <h5 class="avatar av-4">KB</h5>
+            <i class="fas fa-caret-down"></i>
+        </div>
+
         <h4 class="topic">Avatar stack</h4>
         <div class="avatar-stack">
             <h5 class="avatar av-1">JR</h5>
@@ -194,8 +208,31 @@
     </section>
 
     <section class="badges">
-        <h4 class="topic">Badges</h4>
-        <p>Updates <span class="w3-badge">9</span></p>
+        <h4 class="topic">Badge subtle</h4>
+       <div class="badge-row">
+           <h6 class="badge-text text-1">Neutral</h6>
+           <h6 class="badge-text text-2">Green</h6>
+           <h6 class="badge-text text-3">Blue</h6>
+           <h6 class="badge-text text-4">Red</h6>
+           <h6 class="badge-text text-5">Orange</h6>
+           <h6 class="badge-text text-6">Purple</h6>
+           <h6 class="badge-text text-7">Yellow</h6>
+           <h6 class="badge-text text-8">Teal</h6>
+       </div>
+    </section>
+
+    <section class="Pill">
+        <h4 class="topic">Pill subtle</h4>
+       <div class="pill-row">
+           <h6 class="pill-text pill-1">8</h6>
+           <h6 class="pill-text pill-2">1</h6>
+           <h6 class="pill-text pill-3">3</h6>
+           <h6 class="pill-text pill-4">99+</h6>
+           <h6 class="pill-text pill-5">1</h6>
+           <h6 class="pill-text pill-6">3</h6>
+           <h6 class="pill-text pill-7">6</h6>
+           <h6 class="pill-text pill-8">2</h6>
+       </div>
     </section>
 
     <section class="indicator">
@@ -211,14 +248,134 @@
           </ul>
     </section>
 
+    <section class="toast-section">
+        <h4 class="topic">Toasts</h4>
+        <div class="alert toasts alert-1">
+            <div class="alert-content">
+                <i class="fas fa-check-circle icon icon-check"></i>
+              <h6 class="alert-text">You have successfully enabled Personas.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        <div class="alert toasts alert-2">
+            <div class="alert-content">
+                <i class="fas fa-info-circle icon icon-2"></i>
+              <h6 class="alert-text">There are over 180 integrations available.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        <div class="alert toasts alert-3">
+            <div class="alert-content">
+              <i class="fas fa-exclamation-triangle icon icon-3"></i>
+              <h6 class="alert-text">Your plan only supports a compute history of 30 days.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        <div class="alert toasts alert-4">
+            <div class="alert-content">
+                <i class="fas fa-exclamation-circle  icon icon-4"></i>
+              <h6 class="alert-text">We weren’t able to save your changes.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="card-alerts">
+        <h4 class="topic">Card alerts</h4>
+        <div class="alert card alert-1">
+            <div class="alert-content">
+                <i class="fas fa-check-circle icon icon-check"></i>
+              <h6 class="alert-text">You have successfully enabled Personas.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        <div class="alert card alert-2">
+            <div class="alert-content">
+                <i class="fas fa-info-circle icon icon-2"></i>
+              <h6 class="alert-text">There are over 180 integrations available.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        <div class="alert card alert-3">
+            <div class="alert-content">
+                <i class="fas fa-exclamation-triangle icon icon-3"></i>
+              <h6 class="alert-text">Your plan only supports a compute history of 30 days.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        <div class="alert card alert-4">
+            <div class="alert-content">
+                <i class="fas fa-exclamation-circle  icon icon-4"></i>
+              <h6 class="alert-text">We weren’t able to save your changes.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        
+    </section>
+
     <section class="flat-alert">
         <h4 class="topic">Flat alerts</h4>
-        <div class="alert">
-            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-            <h3>Info</h3>
-
+        <div class="alert alert-1">
+            <div class="alert-content">
+                <i class="fas fa-check-circle icon icon-check"></i>
+              <h6 class="alert-text">You have successfully enabled Personas.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
         </div>
+        <div class="alert alert-2">
+            <div class="alert-content">
+                <i class="fas fa-info-circle icon icon-2"></i>
+              <h6 class="alert-text">There are over 180 integrations available.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        <div class="alert alert-3">
+            <div class="alert-content">
+                <i class="fas fa-exclamation-triangle icon icon-3"></i>
+              <h6 class="alert-text">Your plan only supports a compute history of 30 days.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        <div class="alert alert-4">
+            <div class="alert-content">
+                <i class="fas fa-exclamation-circle  icon icon-4"></i>
+              <h6 class="alert-text">We weren’t able to save your changes.</h6>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
+        </div>
+        
     </section>
+
+    <section class="">
+        <h4 class="topic">Inline alerts</h4>
+        <div class="inline">
+            <div class="inline-alert">
+                <i class="fas fa-check-circle icon icon-check"></i>
+              <h6 class="inline-text">You have successfully enabled Personas.</h6>
+            </div>
+        </div>
+        <div class="inline">
+            <div class="inline-alert">
+                <i class="fas fa-info-circle icon icon-2"></i>
+              <h6 class="inline-text">There are over 180 integrations available.</h6>
+            </div>
+        </div>
+        <div class="inline">
+            <div class="inline-alert">
+                <i class="fas fa-exclamation-triangle icon icon-3"></i>
+              <h6 class="inline-text">Your plan only supports a compute history of 30 days.</h6>
+            </div>
+        </div>
+        <div class="inline">
+            <div class="inline-alert">
+                <i class="fas fa-exclamation-circle  icon icon-4"></i>
+              <h6 class="inline-text">We weren’t able to save your changes.</h6>
+            </div>
+        </div>
+        
+    </section>
+
 
     <section class="table">
         <h4 class="topic">Tables</h4>
